@@ -14,12 +14,5 @@ module MathGame
     def correct?(answer)
       answer == @answer
     end
-
   end
-
-  # test
-  q = Question.new
-  puts q.question
-  a = 8
-  puts q.correct?(a)
 end
